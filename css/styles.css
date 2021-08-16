@@ -1,0 +1,479 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.grid1 {
+  margin: 0px 0px;
+  display: grid;
+  grid-template-columns: 70vh 70vh 70vh;
+  grid-template-rows: 20vh 20vh 20vh 40px;
+  grid-template-areas: "imagen1 imagen1 imagen1" "imagen1 imagen1 imagen1" "imagen1 imagen1 imagen1" "menu menu menu"; }
+  .grid1 .imagen1 {
+    grid-area: imagen1;
+    background-image: url(https://www.maratondeseries.com/wp-content/uploads/2018/07/z_nation_serie_netflix_Spin_off.jpg);
+    background-size: cover;
+    background-position: center; }
+  .grid1 .vacio {
+    background-color: #34495e; }
+  .grid1 .menu {
+    grid-area: menu;
+    display: flex;
+    background-color: #34495e;
+    align-items: center;
+    text-transform: uppercase;
+    flex-direction: row;
+    justify-content: space-around; }
+  .grid1 .vacio2 {
+    background-color: #34495e; }
+  .grid1 a {
+    text-decoration: none;
+    color: #dddbd7;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace; }
+  .grid1 .contenedor {
+    margin: auto;
+    display: table; }
+  .grid1 .menu:hover a {
+    color: gray; }
+  .grid1 .menu a {
+    transition: all 300ms;
+    position: relative; }
+  .grid1 .menu a:hover {
+    color: #dddbd7;
+    transform: scale(1.5); }
+
+body {
+  background-color: #171d22; }
+  body #logo {
+    margin-right: 50px; }
+  body h1 {
+    color: aliceblue;
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 300px; }
+  body .titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+
+.grid2 {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 40vh 170vh;
+  grid-template-rows: 35vh 35vh 35vh 35vh 35vh 35vh 35vh 35vh 35vh 35vh;
+  grid-row-gap: 50px;
+  grid-template-areas: "pelicula1 descripcion1" "pelicula2 descripcion2" "pelicula3 descripcion3" "pelicula4 descripcion4" "pelicula5 descripcion5" "pelicula6 descripcion6" "pelicula7 descripcion7" "pelicula8 descripcion8" "pelicula9 descripcion9" "pelicula10 descripcion10"; }
+  .grid2 .pelicula1 {
+    grid-area: pelicula1;
+    background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3F7BEDF784F6632A36EA4E8002BB11B8249F2FFC131572CF9AF735A052A3E128/scale?width=1200&aspectRatio=1.78&format=jpeg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion1 {
+    grid-area: descripcion1;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula2 {
+    grid-area: pelicula2;
+    background-image: url(https://laverdadnoticias.com/__export/1626304982270/sites/laverdad/img/2021/07/14/netflix_documental_asesinato_periodista_espectaculos.jpg_1183029055.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion2 {
+    grid-area: descripcion2;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula3 {
+    grid-area: pelicula3;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJLhyvWGF3f9ENXy1HIwpKMIPybAJ5OJXdw&usqp=CAU);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion3 {
+    grid-area: descripcion3;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula4 {
+    grid-area: pelicula4;
+    background-image: url(https://i2.wp.com/soundtrack-movie.com/wp-content/uploads/2015/10/my-all-american-soundtrack.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion4 {
+    grid-area: descripcion4;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula5 {
+    grid-area: pelicula5;
+    background-image: url(https://pics.filmaffinity.com/Punto_ciego-423317560-large.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion5 {
+    grid-area: descripcion5;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula6 {
+    grid-area: pelicula6;
+    background-image: url(https://i.blogs.es/4f1025/la-calle-del-terror-parte-uno-1994-cartel/1366_2000.jpeg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion6 {
+    grid-area: descripcion6;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula7 {
+    grid-area: pelicula7;
+    background-image: url(https://images.moviefit.me/t/o/19077-beyond-the-mask.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion7 {
+    grid-area: descripcion7;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula8 {
+    grid-area: pelicula8;
+    background-image: url(https://seriesbiblicas.net/sb_content/uploads/2021/05/gen-serie.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion8 {
+    grid-area: descripcion8;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula9 {
+    grid-area: pelicula9;
+    background-image: url(https://i.blogs.es/774e47/cartel-bebe-jefazo/1366_2000.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion9 {
+    grid-area: descripcion9;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .grid2 .pelicula10 {
+    grid-area: pelicula10;
+    background-image: url(https://spoiler.bolavip.com/__export/1612284459982/sites/bolavip/img/2021/02/02/62435375-0-q80_crop1612283522888.jpg_362259816.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .grid2 .descripcion10 {
+    grid-area: descripcion10;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+
+.gridseries {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 40vh 170vh;
+  grid-template-rows: 35vh 35vh 35vh 35vh;
+  grid-row-gap: 50px;
+  grid-template-areas: "pelicula3 descripcion3" "pelicula4 descripcion4" "pelicula8 descripcion8" "pelicula10 descripcion10"; }
+  .gridseries .pelicula3 {
+    grid-area: pelicula3;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJLhyvWGF3f9ENXy1HIwpKMIPybAJ5OJXdw&usqp=CAU);
+    background-size: cover;
+    border-radius: 10px; }
+  .gridseries .descripcion3 {
+    grid-area: descripcion3;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .gridseries .pelicula4 {
+    grid-area: pelicula4;
+    background-image: url(https://i2.wp.com/soundtrack-movie.com/wp-content/uploads/2015/10/my-all-american-soundtrack.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .gridseries .descripcion4 {
+    grid-area: descripcion4;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .gridseries .pelicula8 {
+    grid-area: pelicula8;
+    background-image: url(https://seriesbiblicas.net/sb_content/uploads/2021/05/gen-serie.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .gridseries .descripcion8 {
+    grid-area: descripcion8;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+  .gridseries .pelicula10 {
+    grid-area: pelicula10;
+    background-image: url(https://spoiler.bolavip.com/__export/1612284459982/sites/bolavip/img/2021/02/02/62435375-0-q80_crop1612283522888.jpg_362259816.jpg);
+    background-size: cover;
+    border-radius: 10px; }
+  .gridseries .descripcion10 {
+    grid-area: descripcion10;
+    font-size: 20px;
+    color: #dddbd7;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    justify-items: center;
+    padding-left: 5px; }
+
+.gridpeliculas {
+  margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 40vh 170vh;
+  grid-template-rows: 35vh 35vh 35vh 35vh 35vh 35vh;
+  grid-row-gap: 50px;
+  grid-template-areas: "pelicula1 descripcion1" "pelicula2 descripcion2" "pelicula5 descripcion5" "pelicula6 descripcion6" "pelicula7 descripcion7" "pelicula9 descripcion9"; }
+
+.pelicula1 {
+  grid-area: pelicula1;
+  background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3F7BEDF784F6632A36EA4E8002BB11B8249F2FFC131572CF9AF735A052A3E128/scale?width=1200&aspectRatio=1.78&format=jpeg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.descripcion1 {
+  grid-area: descripcion1;
+  font-size: 20px;
+  color: #dddbd7;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  justify-items: center;
+  padding-left: 5px; }
+
+.pelicula2 {
+  grid-area: pelicula2;
+  background-image: url(https://laverdadnoticias.com/__export/1626304982270/sites/laverdad/img/2021/07/14/netflix_documental_asesinato_periodista_espectaculos.jpg_1183029055.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.descripcion2 {
+  grid-area: descripcion2;
+  font-size: 20px;
+  color: #dddbd7;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  justify-items: center;
+  padding-left: 5px; }
+
+.pelicula5 {
+  grid-area: pelicula5;
+  background-image: url(https://pics.filmaffinity.com/Punto_ciego-423317560-large.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.descripcion5 {
+  grid-area: descripcion5;
+  font-size: 20px;
+  color: #dddbd7;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  justify-items: center;
+  padding-left: 5px; }
+
+.pelicula6 {
+  grid-area: pelicula6;
+  background-image: url(https://i.blogs.es/4f1025/la-calle-del-terror-parte-uno-1994-cartel/1366_2000.jpeg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.descripcion6 {
+  grid-area: descripcion6;
+  font-size: 20px;
+  color: #dddbd7;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  justify-items: center;
+  padding-left: 5px; }
+
+.pelicula7 {
+  grid-area: pelicula7;
+  background-image: url(https://images.moviefit.me/t/o/19077-beyond-the-mask.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.descripcion7 {
+  grid-area: descripcion7;
+  font-size: 20px;
+  color: #dddbd7;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  justify-items: center;
+  padding-left: 5px; }
+
+.pelicula9 {
+  grid-area: pelicula9;
+  background-image: url(https://i.blogs.es/774e47/cartel-bebe-jefazo/1366_2000.jpg);
+  background-size: cover;
+  border-radius: 10px; }
+
+.descripcion9 {
+  grid-area: descripcion9;
+  font-size: 20px;
+  color: #dddbd7;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+  justify-items: center;
+  padding-left: 5px; }
+
+section div {
+  width: 100%;
+  transition: all 300ms;
+  position: relative; }
+
+section div:hover {
+  transform: scale(1.15); }
+
+#formulario {
+  margin: 20px;
+  justify-content: center;
+  text-align: center; }
+  #formulario .placeholder {
+    text-align: center; }
+
+#formulario label {
+  text-decoration-color: whitesmoke;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace; }
+
+form {
+  position: relative;
+  overflow: hidden; }
+
+form input {
+  border: none;
+  background: none;
+  border-bottom: 3px solid #c7c7c7;
+  text-align: center; }
+
+form .boton {
+  background: white; }
+
+#imagen1 {
+  width: 1500px;
+  height: 500px; }
+
+carousel-inner img {
+  width: 640px;
+  height: 360px; }
+
+.txt h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Roboto Mono', monospace;
+  color: blanchedalmond; }
+
+.txt p {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Roboto Mono', monospace;
+  color: blanchedalmond; }
+
+.contacto li {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  color: blanchedalmond;
+  list-style: none; }
+
+.contacto {
+  color: blanchedalmond; }
+
+.grid3 {
+  margin: 0px 0px;
+  display: grid;
+  grid-template-columns: 70vh 70vh 70vh;
+  grid-template-rows: 80px;
+  grid-template-areas: "contacto tyc redes";
+  background-color: #34495e; }
+  .grid3 .datos {
+    grid-area: tyc;
+    font-size: 10px;
+    color: cornsilk;
+    font-family: 'Roboto Mono', monospace;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around; }
+  .grid3 .datos2 {
+    grid-area: contacto;
+    font-size: 10px;
+    color: cornsilk;
+    font-family: 'Roboto Mono', monospace;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around; }
+  .grid3 .datos li {
+    font-size: 15px; }
+  .grid3 .datos2 li {
+    font-size: 15px; }
+  .grid3 .redes {
+    grid-area: redes;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; }
+    .grid3 .redes img {
+      width: 45px;
+      height: 45px; }
+
+.redes a {
+  margin-left: 15px;
+  transition: all 300ms;
+  position: relative; }
+
+.redes a:hover {
+  color: #dddbd7;
+  transform: scale(1.5); }
+
+@media only screen and (max-width: 768px) {
+  .grid2 {
+    width: 768px;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media only screen and (min-width: 400px) and (max-width: 767) {
+  .grid2 {
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr); } }

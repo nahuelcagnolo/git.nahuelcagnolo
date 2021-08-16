@@ -1,0 +1,17 @@
+@import "base";
+@import "header";
+@import "logo";
+@import "bodyindex";
+@import "series";
+@import "peliculas";
+section div{
+    width: 100%;
+    transition: all 300ms;
+     position: relative;}
+section div:hover{
+   transform: scale(1.15);
+}
+@import "colabora";   
+@import "sobrenosotros";   
+@import "footer";
+@import "mediaqueries";

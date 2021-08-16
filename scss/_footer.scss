@@ -1,0 +1,57 @@
+.grid3{
+      margin: 0px 0px;
+      display: grid;
+      grid-template-columns: 70vh 70vh 70vh;
+      grid-template-rows: 80px;
+      grid-template-areas:
+      "contacto tyc redes";
+      background-color: #34495e;
+    .datos{
+        grid-area: tyc;
+        font-size: 10px;
+        color: cornsilk;
+        font-family: 'Roboto Mono', monospace;
+        list-style: none;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    
+    .datos2{
+        grid-area: contacto;
+        font-size: 10px;
+        color: cornsilk;
+        font-family: 'Roboto Mono', monospace; 
+        list-style: none;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .datos li{
+        font-size: 15px;
+    }
+    .datos2 li{
+        font-size: 15px;
+    }
+
+    .redes{
+        grid-area: redes;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 45px;
+            height: 45px;
+            
+        }
+    }}
+    
+    .redes a{
+        margin-left: 15px;   
+        transition: all 300ms;
+         position: relative;}
+     
+    .redes a:hover{
+          color: rgb(221, 219, 215);
+          transform: scale(1.5);}

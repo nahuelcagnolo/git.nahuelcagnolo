@@ -1,0 +1,31 @@
+#formulario{
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+
+    .placeholder{
+        text-align: center;
+    }
+}
+        #formulario label{
+         text-decoration-color: whitesmoke;
+         font-weight: bold;
+         color: white;
+         text-transform: uppercase;
+         font-family: 'Roboto Mono', monospace;
+        }
+        
+     form{
+        position: relative;
+        overflow: hidden;
+    }
+form input{
+    border: none;
+    background: none;
+    border-bottom: 3px solid #c7c7c7;
+    text-align: center;
+}
+
+form .boton{
+    background: white;
+}

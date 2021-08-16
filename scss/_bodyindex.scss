@@ -1,0 +1,111 @@
+@mixin pelicula
+{
+font-size: 20px;
+color: rgb(221, 219, 215);
+font-family: 'Roboto Mono', monospace;
+align-items: center;
+justify-items: center;
+padding-left: 5px;}
+
+    .grid2{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 40vh 170vh;
+    grid-template-rows: 35vh 35vh 35vh 35vh 35vh 35vh 35vh 35vh 35vh 35vh;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "pelicula1 descripcion1"
+    "pelicula2 descripcion2"
+    "pelicula3 descripcion3"
+    "pelicula4 descripcion4"
+    "pelicula5 descripcion5"
+    "pelicula6 descripcion6"
+    "pelicula7 descripcion7"
+    "pelicula8 descripcion8"
+    "pelicula9 descripcion9"
+    "pelicula10 descripcion10";
+
+        .pelicula1{
+            grid-area: pelicula1;
+            background-image: url(https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3F7BEDF784F6632A36EA4E8002BB11B8249F2FFC131572CF9AF735A052A3E128/scale?width=1200&aspectRatio=1.78&format=jpeg);
+            background-size: cover;
+            border-radius: 10px;}
+            
+        .descripcion1{
+             grid-area: descripcion1;
+             @include pelicula;}
+        .pelicula2{
+             grid-area: pelicula2;
+             background-image: url(https://laverdadnoticias.com/__export/1626304982270/sites/laverdad/img/2021/07/14/netflix_documental_asesinato_periodista_espectaculos.jpg_1183029055.jpg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion2{
+             grid-area: descripcion2;
+             @include pelicula;}
+        .pelicula3{
+             grid-area: pelicula3;
+             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJLhyvWGF3f9ENXy1HIwpKMIPybAJ5OJXdw&usqp=CAU);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion3{
+             grid-area: descripcion3;
+             @include pelicula;}
+        .pelicula4{
+             grid-area: pelicula4;
+             background-image: url(https://i2.wp.com/soundtrack-movie.com/wp-content/uploads/2015/10/my-all-american-soundtrack.jpg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion4{
+             grid-area: descripcion4;
+             @include pelicula;}
+        .pelicula5{
+             grid-area: pelicula5;
+             background-image: url(https://pics.filmaffinity.com/Punto_ciego-423317560-large.jpg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion5{
+             grid-area: descripcion5;
+             @include pelicula;}
+        .pelicula6{
+             grid-area: pelicula6;
+             background-image: url(https://i.blogs.es/4f1025/la-calle-del-terror-parte-uno-1994-cartel/1366_2000.jpeg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion6{
+             grid-area: descripcion6;
+             @include pelicula;}
+        .pelicula7{
+             grid-area: pelicula7;
+             background-image: url(https://images.moviefit.me/t/o/19077-beyond-the-mask.jpg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion7{
+             grid-area: descripcion7;
+             @include pelicula;}
+        .pelicula8{
+             grid-area: pelicula8;
+             background-image: url(https://seriesbiblicas.net/sb_content/uploads/2021/05/gen-serie.jpg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion8{
+             grid-area: descripcion8;
+             @include pelicula;}
+        .pelicula9{
+             grid-area: pelicula9;
+             background-image: url(https://i.blogs.es/774e47/cartel-bebe-jefazo/1366_2000.jpg);
+             background-size: cover;
+             border-radius: 10px;}
+        .descripcion9{
+             grid-area: descripcion9;
+             @include pelicula;}
+        .pelicula10{
+            grid-area: pelicula10;
+            background-image: url(https://spoiler.bolavip.com/__export/1612284459982/sites/bolavip/img/2021/02/02/62435375-0-q80_crop1612283522888.jpg_362259816.jpg);
+            background-size: cover;
+            border-radius: 10px;
+        }
+
+        .descripcion10{
+             grid-area: descripcion10;
+             @include pelicula;
+        }}

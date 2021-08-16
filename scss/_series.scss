@@ -1,0 +1,67 @@
+@mixin pelicula
+{font-size: 20px;
+color: rgb(221, 219, 215);
+font-family: 'Roboto Mono', monospace;
+align-items: center;
+justify-items: center;
+padding-left: 5px;}
+
+.gridseries{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 40vh 170vh;
+    grid-template-rows: 35vh 35vh 35vh 35vh;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "pelicula3 descripcion3"
+    "pelicula4 descripcion4"
+    "pelicula8 descripcion8"
+    "pelicula10 descripcion10";
+
+        .pelicula3{
+        grid-area: pelicula3;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJLhyvWGF3f9ENXy1HIwpKMIPybAJ5OJXdw&usqp=CAU);
+        background-size: cover;
+        border-radius: 10px;
+        }
+
+        .descripcion3{
+        grid-area: descripcion3;
+        @include pelicula;
+        }
+
+.pelicula4{
+    grid-area: pelicula4;
+    background-image: url(https://i2.wp.com/soundtrack-movie.com/wp-content/uploads/2015/10/my-all-american-soundtrack.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.descripcion4{
+    grid-area: descripcion4;
+    @include pelicula;
+}
+
+.pelicula8{
+    grid-area: pelicula8;
+    background-image: url(https://seriesbiblicas.net/sb_content/uploads/2021/05/gen-serie.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.descripcion8{
+    grid-area: descripcion8;
+    @include pelicula;
+}
+.pelicula10{
+    grid-area: pelicula10;
+    background-image: url(https://spoiler.bolavip.com/__export/1612284459982/sites/bolavip/img/2021/02/02/62435375-0-q80_crop1612283522888.jpg_362259816.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.descripcion10{
+    grid-area: descripcion10;
+    @include pelicula;
+}
+}

@@ -1,0 +1,49 @@
+.grid1{
+        margin: 0px 0px;
+        display: grid;
+        grid-template-columns: 70vh 70vh 70vh;
+        grid-template-rows: 20vh 20vh 20vh 40px;
+         grid-template-areas: 
+         "imagen1 imagen1 imagen1"
+        "imagen1 imagen1 imagen1"
+        "imagen1 imagen1 imagen1"
+        "menu menu menu";
+
+         .imagen1{
+            grid-area: imagen1;
+            background-image: url(https://www.maratondeseries.com/wp-content/uploads/2018/07/z_nation_serie_netflix_Spin_off.jpg);
+            background-size: cover;
+            background-position: center;}
+         .vacio{
+             background-color: #34495e;}
+         .menu{
+             grid-area: menu;
+             display: flex;
+             background-color: #34495e;
+             align-items: center;
+             text-transform: uppercase;
+             flex-direction: row;
+             justify-content: space-around;}
+         .vacio2{
+             background-color: #34495e;}
+         a{
+             text-decoration: none;
+             color: rgb(221, 219, 215);
+             font-size: 15px;
+             font-family: 'Roboto Mono', monospace;}
+         .contenedor{
+             margin: auto;
+             display: table;}
+         .menu:hover a{
+             color: gray;}
+         .menu a{
+           
+            transition: all 300ms;
+             position: relative;}
+         
+         .menu a:hover{
+              color: rgb(221, 219, 215);
+              transform: scale(1.5);}
+      }
+
+      
